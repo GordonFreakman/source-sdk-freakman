@@ -19,6 +19,7 @@ public:
 	bool m_bHasWings;
 	void Spawn();
 	virtual bool ClientCommand(const CCommand &args);
+	virtual void CheatImpulseCommands(int iImpulse);
 };
 
 #endif

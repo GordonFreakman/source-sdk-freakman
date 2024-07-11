@@ -444,8 +444,12 @@ void CHL2_Player::CheckSuitZoom( void )
 {
 //#ifndef _XBOX 
 	//Adrian - No zooming without a suit!
+#ifndef FREAKMAN
+	//not in freakman though
 	if ( IsSuitEquipped() )
+#endif
 	{
+
 		if ( m_afButtonReleased & IN_ZOOM )
 		{
 			StopZooming();
