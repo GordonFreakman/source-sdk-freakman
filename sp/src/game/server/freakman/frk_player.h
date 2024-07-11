@@ -18,6 +18,7 @@ public:
 	}
 	bool m_bHasWings;
 	void Spawn();
+	virtual bool ClientCommand(const CCommand &args);
 };
 
 #endif
