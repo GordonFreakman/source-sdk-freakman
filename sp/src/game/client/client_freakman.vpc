@@ -36,6 +36,7 @@ $Project "Client (Freakman)"
 			$File	"freakman\hud_lsdnumericdisplay.cpp"
 			$File	"freakman\hud_lsdnumericdisplay.h"
 			$File	"freakman\c_weapon__stubs_frk.cpp"
+			$File	"freakman\c_weapon_physgun.cpp"
 		}		
 
 		$Folder	"HL2 DLL"

@@ -75,6 +75,8 @@ $Project "Server (Freakman)"
 		$File "freakman\weapon_357.cpp"
 		$File "freakman\weapon_crowbar.cpp"
 		$File "freakman\weapon_glock.cpp"
+		$file  "freakman\weapon_physgun.cpp"
+		$file  "freakman\npc_wpnscanner.cpp"
 		$File	"$SRCDIR\game\shared\freakman\frk_gamemovement.cpp"
 		}
 		$Folder	"HL2 DLL"

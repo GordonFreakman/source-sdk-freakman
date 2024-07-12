@@ -2923,6 +2923,9 @@
     <ClCompile Include="freakman\item_wings.cpp">
       <Filter>Source Files\FREAKMAN DLL</Filter>
     </ClCompile>
+    <ClCompile Include="freakman\npc_wpnscanner.cpp">
+      <Filter>Source Files\FREAKMAN DLL</Filter>
+    </ClCompile>
     <ClCompile Include="freakman\weapon_357.cpp">
       <Filter>Source Files\FREAKMAN DLL</Filter>
     </ClCompile>
@@ -2948,6 +2951,9 @@
       <Filter>Source Files\FREAKMAN DLL</Filter>
     </ClCompile>
     <ClCompile Include="freakman\weapon_missingpaste.cpp">
+      <Filter>Source Files\FREAKMAN DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="freakman\weapon_physgun.cpp">
       <Filter>Source Files\FREAKMAN DLL</Filter>
     </ClCompile>
     <ClCompile Include="freakman\weapon_proto1.cpp">

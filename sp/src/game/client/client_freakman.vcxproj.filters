@@ -2935,6 +2935,9 @@
     <ClCompile Include="freakman\c_weapon__stubs_frk.cpp">
       <Filter>Source Files\FREAKMAN DLL</Filter>
     </ClCompile>
+    <ClCompile Include="freakman\c_weapon_physgun.cpp">
+      <Filter>Source Files\FREAKMAN DLL</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\game\shared\freakman\frk_gamemovement.cpp">
       <Filter>Source Files\FREAKMAN DLL</Filter>
     </ClCompile>

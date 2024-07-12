@@ -117,7 +117,7 @@ bool CFreakman_Player::ClientCommand(const CCommand &args)
 	if (!Q_stricmp(args[0], "freakman"))
 	{
 		EmitSound("Player.Freakman");
-		Msg("Congratulations!\nFreakman is love, Freakman is life.\n\nMod by Wirelex.exe\nCode cleanup and open sourcing by Gordon Freakman\n");
+		Msg("Congratulations!\nFreakman is love, Freakman is life.\n\nMod by Wirelex.exe\nOpen Freakman project by Wirelex.exe & Gordon Freakman\n");
 		return true;
 	}
 
