@@ -1,4 +1,4 @@
-![Open Freakman: Gordon Freakman 1](openfrk_assets\OpenFreakman.png)
+![Open Freakman: Gordon Freakman 1](openfrk_assets/OpenFreakman.png)
 
 # Open Freakman: Gordon Freakman 1
 
