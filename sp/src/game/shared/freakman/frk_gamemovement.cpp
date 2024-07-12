@@ -54,11 +54,9 @@ void CFreakmanGameMovement::WalkMove()
 
 bool CFreakmanGameMovement::CheckJumpButton(void)
 {
-	if (mv->m_nOldButtons & IN_JUMP)
-		return false;		// don't pogo stick
 #ifndef CLIENT_DLL //temp
-	if (GetFrkPlayer()->m_bHasWings)
-	{ 
+	if (!(mv->m_nOldButtons & IN_JUMP) && GetFrkPlayer()->m_bHasWings)
+	{
 		mv->m_vecVelocity.z += 250;
 		GetFrkPlayer()->EmitSound("Player.Wing");
 	}
